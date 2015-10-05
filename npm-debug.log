@@ -1,0 +1,346 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'express' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of D:\exp\package.json
+5 verbose readDependencies loading dependencies from D:\exp\package.json
+6 silly cache add args [ 'express', null ]
+7 verbose cache add spec express
+8 silly cache add parsed spec { raw: 'express',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'express',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed express@*
+10 verbose addNamed "*" is a valid semver range for express
+11 silly addNameRange { name: 'express', range: '*', hasData: false }
+12 silly mapToRegistry name express
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/express
+16 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/express
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 01:18:31
+20 verbose request id 1bcc42c9d8c2e753
+21 verbose etag "4NOH8YHU1IPRHXQPH7RZUY65O"
+22 http request GET https://registry.npmjs.org/express
+23 info retry will retry, error on last attempt: Error: read ECONNRESET
+24 info attempt registry request try #2 at 01:19:27
+25 verbose etag "4NOH8YHU1IPRHXQPH7RZUY65O"
+26 http request GET https://registry.npmjs.org/express
+27 info retry will retry, error on last attempt: Error: read ECONNRESET
+28 info attempt registry request try #3 at 01:21:09
+29 verbose etag "4NOH8YHU1IPRHXQPH7RZUY65O"
+30 http request GET https://registry.npmjs.org/express
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/express from cache
+33 verbose get saving express to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+34 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+35 silly addNameRange versions [ 'express',
+35 silly addNameRange   [ '0.14.0',
+35 silly addNameRange     '0.14.1',
+35 silly addNameRange     '1.0.0',
+35 silly addNameRange     '1.0.1',
+35 silly addNameRange     '1.0.2',
+35 silly addNameRange     '1.0.3',
+35 silly addNameRange     '1.0.4',
+35 silly addNameRange     '1.0.5',
+35 silly addNameRange     '1.0.6',
+35 silly addNameRange     '1.0.7',
+35 silly addNameRange     '1.0.8',
+35 silly addNameRange     '2.0.0',
+35 silly addNameRange     '2.1.0',
+35 silly addNameRange     '2.1.1',
+35 silly addNameRange     '2.2.0',
+35 silly addNameRange     '2.2.1',
+35 silly addNameRange     '2.2.2',
+35 silly addNameRange     '2.3.0',
+35 silly addNameRange     '2.3.1',
+35 silly addNameRange     '2.3.2',
+35 silly addNameRange     '2.3.3',
+35 silly addNameRange     '2.3.4',
+35 silly addNameRange     '2.3.5',
+35 silly addNameRange     '2.3.6',
+35 silly addNameRange     '2.3.7',
+35 silly addNameRange     '2.3.8',
+35 silly addNameRange     '2.3.9',
+35 silly addNameRange     '2.3.10',
+35 silly addNameRange     '2.3.11',
+35 silly addNameRange     '2.3.12',
+35 silly addNameRange     '2.4.0',
+35 silly addNameRange     '2.4.1',
+35 silly addNameRange     '2.4.2',
+35 silly addNameRange     '2.4.3',
+35 silly addNameRange     '2.4.4',
+35 silly addNameRange     '2.4.5',
+35 silly addNameRange     '2.4.6',
+35 silly addNameRange     '2.4.7',
+35 silly addNameRange     '2.5.0',
+35 silly addNameRange     '2.5.1',
+35 silly addNameRange     '2.5.2',
+35 silly addNameRange     '2.5.3',
+35 silly addNameRange     '2.5.4',
+35 silly addNameRange     '2.5.5',
+35 silly addNameRange     '2.5.6',
+35 silly addNameRange     '2.5.7',
+35 silly addNameRange     '2.5.8',
+35 silly addNameRange     '2.5.9',
+35 silly addNameRange     '2.5.10',
+35 silly addNameRange     '2.5.11',
+35 silly addNameRange     '3.0.0',
+35 silly addNameRange     '3.0.1',
+35 silly addNameRange     '3.0.2',
+35 silly addNameRange     '3.0.3',
+35 silly addNameRange     '3.0.4',
+35 silly addNameRange     '3.0.5',
+35 silly addNameRange     '3.0.6',
+35 silly addNameRange     '3.1.0',
+35 silly addNameRange     '3.1.1',
+35 silly addNameRange     '3.1.2',
+35 silly addNameRange     '3.2.0',
+35 silly addNameRange     '3.2.1',
+35 silly addNameRange     '3.2.2',
+35 silly addNameRange     '3.2.3',
+35 silly addNameRange     '3.2.4',
+35 silly addNameRange     '3.2.5',
+35 silly addNameRange     '3.2.6',
+35 silly addNameRange     '3.3.0',
+35 silly addNameRange     '3.3.1',
+35 silly addNameRange     '3.3.2',
+35 silly addNameRange     '3.3.3',
+35 silly addNameRange     '3.3.4',
+35 silly addNameRange     '3.3.5',
+35 silly addNameRange     '3.3.6',
+35 silly addNameRange     '1.0.0-beta',
+35 silly addNameRange     '1.0.0-beta2',
+35 silly addNameRange     '1.0.0-rc',
+35 silly addNameRange     '1.0.0-rc2',
+35 silly addNameRange     '1.0.0-rc3',
+35 silly addNameRange     '1.0.0-rc4',
+35 silly addNameRange     '2.0.0-beta',
+35 silly addNameRange     '2.0.0-beta2',
+35 silly addNameRange     '2.0.0-beta3',
+35 silly addNameRange     '2.0.0-rc',
+35 silly addNameRange     '2.0.0-rc2',
+35 silly addNameRange     '2.0.0-rc3',
+35 silly addNameRange     '3.0.0-alpha1',
+35 silly addNameRange     '3.0.0-alpha2',
+35 silly addNameRange     '3.0.0-alpha3',
+35 silly addNameRange     '3.0.0-alpha4',
+35 silly addNameRange     '3.0.0-alpha5',
+35 silly addNameRange     '3.0.0-beta1',
+35 silly addNameRange     '3.0.0-beta2',
+35 silly addNameRange     '3.0.0-beta3',
+35 silly addNameRange     '3.0.0-beta4',
+35 silly addNameRange     '3.0.0-beta6',
+35 silly addNameRange     '3.0.0-beta7',
+35 silly addNameRange     '3.0.0-rc1',
+35 silly addNameRange     '3.0.0-rc2',
+35 silly addNameRange     '3.0.0-rc3',
+35 silly addNameRange     '3.0.0-rc4',
+35 silly addNameRange     '3.0.0-rc5',
+35 silly addNameRange     '3.3.7',
+35 silly addNameRange     '3.3.8',
+35 silly addNameRange     '3.4.0',
+35 silly addNameRange     '3.4.1',
+35 silly addNameRange     '3.4.2',
+35 silly addNameRange     '3.4.3',
+35 silly addNameRange     '3.4.4',
+35 silly addNameRange     '3.4.5',
+35 silly addNameRange     '3.4.6',
+35 silly addNameRange     '3.4.7',
+35 silly addNameRange     '3.4.8',
+35 silly addNameRange     '4.0.0-rc1',
+35 silly addNameRange     '4.0.0-rc2',
+35 silly addNameRange     '3.5.0',
+35 silly addNameRange     '4.0.0-rc3',
+35 silly addNameRange     '4.0.0-rc4',
+35 silly addNameRange     '3.5.1',
+35 silly addNameRange     '4.0.0',
+35 silly addNameRange     '3.5.2',
+35 silly addNameRange     '4.1.0',
+35 silly addNameRange     '4.1.1',
+35 silly addNameRange     '3.5.3',
+35 silly addNameRange     '4.1.2',
+35 silly addNameRange     '3.6.0',
+35 silly addNameRange     '4.2.0',
+35 silly addNameRange     '3.7.0',
+35 silly addNameRange     '3.8.0',
+35 silly addNameRange     '4.3.0',
+35 silly addNameRange     '4.3.1',
+35 silly addNameRange     '3.8.1',
+35 silly addNameRange     '4.3.2',
+35 silly addNameRange     '3.9.0',
+35 silly addNameRange     '4.4.0',
+35 silly addNameRange     '4.4.1',
+35 silly addNameRange     '3.10.0',
+35 silly addNameRange     '3.10.1',
+35 silly addNameRange     '3.10.2',
+35 silly addNameRange     '3.10.3',
+35 silly addNameRange     '3.10.4',
+35 silly addNameRange     '4.4.2',
+35 silly addNameRange     '3.10.5',
+35 silly addNameRange     '4.4.3',
+35 silly addNameRange     '3.11.0',
+35 silly addNameRange     '4.4.4',
+35 silly addNameRange     '3.12.0',
+35 silly addNameRange     '3.12.1',
+35 silly addNameRange     '4.4.5',
+35 silly addNameRange     '3.13.0',
+35 silly addNameRange     '4.5.0',
+35 silly addNameRange     '4.5.1',
+35 silly addNameRange     '3.14.0',
+35 silly addNameRange     '4.6.0',
+35 silly addNameRange     '4.6.1',
+35 silly addNameRange     '3.15.0',
+35 silly addNameRange     '4.7.0',
+35 silly addNameRange     '3.15.1',
+35 silly addNameRange     '4.7.1',
+35 silly addNameRange     '3.15.2',
+35 silly addNameRange     '4.7.2',
+35 silly addNameRange     '4.7.3',
+35 silly addNameRange     '3.15.3',
+35 silly addNameRange     '4.7.4',
+35 silly addNameRange     '3.16.0',
+35 silly addNameRange     '4.8.0',
+35 silly addNameRange     '3.16.1',
+35 silly addNameRange     '4.8.1',
+35 silly addNameRange     '3.16.2',
+35 silly addNameRange     '4.8.2',
+35 silly addNameRange     '3.16.3',
+35 silly addNameRange     '3.16.4',
+35 silly addNameRange     '4.8.3',
+35 silly addNameRange     '3.16.5',
+35 silly addNameRange     '3.16.6',
+35 silly addNameRange     '4.8.4',
+35 silly addNameRange     '3.16.7',
+35 silly addNameRange     '4.8.5',
+35 silly addNameRange     '3.16.8',
+35 silly addNameRange     '4.8.6',
+35 silly addNameRange     '3.16.9',
+35 silly addNameRange     '4.8.7',
+35 silly addNameRange     '3.16.10',
+35 silly addNameRange     '4.8.8',
+35 silly addNameRange     '3.17.0',
+35 silly addNameRange     '3.17.1',
+35 silly addNameRange     '4.9.0',
+35 silly addNameRange     '3.17.2',
+35 silly addNameRange     '4.9.1',
+35 silly addNameRange     '4.9.2',
+35 silly addNameRange     '3.17.3',
+35 silly addNameRange     '4.9.3',
+35 silly addNameRange     '3.17.4',
+35 silly addNameRange     '4.9.4',
+35 silly addNameRange     '3.17.5',
+35 silly addNameRange     '4.9.5',
+35 silly addNameRange     '3.17.6',
+35 silly addNameRange     '3.17.7',
+35 silly addNameRange     '4.9.6',
+35 silly addNameRange     '4.9.7',
+35 silly addNameRange     '3.17.8',
+35 silly addNameRange     '4.9.8',
+35 silly addNameRange     '3.18.0',
+35 silly addNameRange     '3.18.1',
+35 silly addNameRange     '4.10.0',
+35 silly addNameRange     '3.18.2',
+35 silly addNameRange     '4.10.1',
+35 silly addNameRange     '5.0.0-alpha.1',
+35 silly addNameRange     '3.18.3',
+35 silly addNameRange     '4.10.2',
+35 silly addNameRange     '3.18.4',
+35 silly addNameRange     '4.10.3',
+35 silly addNameRange     '4.10.4',
+35 silly addNameRange     '4.10.5',
+35 silly addNameRange     '3.18.5',
+35 silly addNameRange     '3.18.6',
+35 silly addNameRange     '4.10.6',
+35 silly addNameRange     '4.10.7',
+35 silly addNameRange     '3.19.0',
+35 silly addNameRange     '4.10.8',
+35 silly addNameRange     '4.11.0',
+35 silly addNameRange     '3.19.1',
+35 silly addNameRange     '4.11.1',
+35 silly addNameRange     '3.19.2',
+35 silly addNameRange     '4.11.2',
+35 silly addNameRange     '3.20.0',
+35 silly addNameRange     '4.12.0',
+35 silly addNameRange     '3.20.1',
+35 silly addNameRange     '4.12.1',
+35 silly addNameRange     '4.12.2',
+35 silly addNameRange     '3.20.2',
+35 silly addNameRange     '4.12.3',
+35 silly addNameRange     '3.20.3',
+35 silly addNameRange     '4.12.4',
+35 silly addNameRange     '3.21.0',
+35 silly addNameRange     '4.13.0',
+35 silly addNameRange     '3.21.1',
+35 silly addNameRange     '4.13.1',
+35 silly addNameRange     '5.0.0-alpha.2',
+35 silly addNameRange     '3.21.2',
+35 silly addNameRange     '4.13.2',
+35 silly addNameRange     '4.13.3' ] ]
+36 silly addNamed express@4.13.3
+37 verbose addNamed "4.13.3" is a plain semver version for express
+38 silly mapToRegistry name express
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/express
+42 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.13.3.tgz not in flight; adding
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.13.3.tgz',
+43 verbose addRemoteTarball   'ddb2f1fb4502bf33598d2b032b037960ca6c80a3' ]
+44 info retry fetch attempt 1 at 01:21:56
+45 info attempt registry request try #1 at 01:21:56
+46 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+47 info retry will retry, error on last attempt: Error: read ECONNRESET
+48 info attempt registry request try #2 at 01:23:03
+49 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+50 info retry will retry, error on last attempt: Error: read ECONNRESET
+51 info attempt registry request try #3 at 01:24:45
+52 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+53 error fetch failed https://registry.npmjs.org/express/-/express-4.13.3.tgz
+54 warn retry will retry, error on last attempt: Error: read ECONNRESET
+55 info retry fetch attempt 2 at 01:25:45
+56 info attempt registry request try #1 at 01:25:45
+57 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+58 info retry will retry, error on last attempt: Error: read ECONNRESET
+59 info attempt registry request try #2 at 01:26:38
+60 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+61 info retry will retry, error on last attempt: Error: read ECONNRESET
+62 info attempt registry request try #3 at 01:28:22
+63 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+64 error fetch failed https://registry.npmjs.org/express/-/express-4.13.3.tgz
+65 warn retry will retry, error on last attempt: Error: read ECONNRESET
+66 info retry fetch attempt 3 at 01:30:12
+67 info attempt registry request try #1 at 01:30:12
+68 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+69 info retry will retry, error on last attempt: Error: socket hang up
+70 info attempt registry request try #2 at 01:31:24
+71 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+72 info retry will retry, error on last attempt: Error: read ECONNRESET
+73 info attempt registry request try #3 at 01:33:06
+74 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+75 error fetch failed https://registry.npmjs.org/express/-/express-4.13.3.tgz
+76 verbose stack Error: read ECONNRESET
+76 verbose stack     at exports._errnoException (util.js:746:11)
+76 verbose stack     at TCP.onread (net.js:559:26)
+77 verbose cwd D:\exp
+78 error Windows_NT 6.1.7601
+79 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "express"
+80 error node v0.12.7
+81 error npm  v2.11.3
+82 error code ECONNRESET
+83 error errno ECONNRESET
+84 error syscall read
+85 error network read ECONNRESET
+85 error network This is most likely not a problem with npm itself
+85 error network and is related to network connectivity.
+85 error network In most cases you are behind a proxy or have bad network settings.
+85 error network
+85 error network If you are behind a proxy, please make sure that the
+85 error network 'proxy' config is set properly.  See: 'npm help config'
+86 verbose exit [ 1, true ]
